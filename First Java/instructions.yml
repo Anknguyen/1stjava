@@ -1,0 +1,41 @@
+
+
+1. Data 
+    Database:  test1
+    Table: 
+
+    Product
+    - id - integer
+    - description - text
+    - quantity - int
+    - price - double
+
+2. API - Restful 
+    1. Entity - model : mapping table to class
+        Product class
+       (MySQL Driver) 
+    2. Repository
+        Insert, Update, Get, Delete a/multi records
+        (Spring Data JPA) 
+    3. Service
+        Calculations before running CRUD functions
+    4. RestController
+        To invoke the service
+        (SpringWeb)
+
+
+    
+    Endpoint:  http:/product
+        GET
+        POST
+        DELETE
+        PUT
+
+        
+
+
+ How to create springboot project
+
+ https://start.spring.io/
+
+ Maven, Java
